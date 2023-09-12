@@ -1,0 +1,56 @@
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#grey{background-color: gray;}
+#blue{background-color: blue;}
+#white{background-color: white;}
+#yellow{background-color: yellow;}
+#black{background-color: black;
+      border: 1px solid red; 
+}
+
+
+/* bmi calculator css */
+
+.bmi_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calc{
+    margin: 15px;
+}
+
+.bmi_result{
+    margin: 200px;
+    background-color: chartreuse;
+
+}
+
+/* local time */
+.date_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

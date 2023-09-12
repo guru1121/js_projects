@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="btn_container">
+         <button class="btn" id="grey"></button>
+         <button class="btn" id="blue" ></button>
+         <button class="btn" id="white" ></button>
+         <button class="btn" id="yellow" ></button>
+         <button class="btn" id="black" ></button>
+    </div>
+
+    <div class="bmi_container" >
+    <h1>BMI Calculator</h1>
+    <form action="">
+        <p><label for="">Height in cm:</label><input type="text" id="height"></p>
+        <p><label for="">Weight in Kg:</label><input type="text" id="weight"></p>
+        <button class="calc">Calculate</button>
+        <div id="result"></div>
+        <div id="weight-guide">
+            <h3>BMI Weight Guide</h3>
+            <p>Under Weight = Less than 18.6</p>
+            <p>Normal Range = 18.6 and 24.9</p>
+            <p>Over Weight = Greater than  24.9</p>
+        </div>
+        <div id="result_s"></div>
+    </form>
+    <button class="reset">Reset</button>
+    </div>
+
+    <div class="date_container">
+        <p>local time</p>
+        <h1 id="clock"></h1>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+</html>

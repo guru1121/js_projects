@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 800px;
+}
+.head{
+   margin: 50px;
+}
+
+#subt{
+    color: blueviolet;
+}
+
+#newGame{
+    border: 2px solid balck;
+    background-color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
