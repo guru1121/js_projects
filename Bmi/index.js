@@ -81,7 +81,7 @@ const clock = document.getElementById("clock");
 
 setInterval(function () {
   let date = new Date();
-  clock.innerHTML = date.toLocaleTimeString('en-IN');
+  clock.innerHTML = date.toLocaleTimeString('en-IN'); 
  
 }, 500);
 
